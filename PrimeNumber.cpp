@@ -12,8 +12,7 @@ int main()
     int number = 2;
     while (prime_number_count < user_input)
     {
-        bool is_prime = is_prime_number(number);
-        if (is_prime)
+        if (is_prime_number(number))
         {
             prime_number_count++;
             // printf("%d: %d\n", prime_number_count, number);
