@@ -4,6 +4,8 @@
 #include <vector>
 #include <fstream>
 
+#define LOG(x) std::cout << x << std::endl
+
 int main()
 {
     printf("Enter a positive integer: ");
